@@ -1,0 +1,20 @@
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.vscode/
+.idea/
+
+# KiCad local backups, caches, lock files
+*-backups/
+*.lck
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Private/local files
+.env
+.env.*
+!.env.example
+secrets/
